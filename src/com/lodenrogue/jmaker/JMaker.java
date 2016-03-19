@@ -37,7 +37,7 @@ public class JMaker {
 		for (int i = 0; i < 3; i++) {
 			if (values.size() > i) {
 				json += "\"value" + (i + 1) + "\":\"" + values.get(i) + "\"";
-				if (values.size() != i + 1) {
+				if (i != 2) {
 					json += ",";
 				}
 			}
